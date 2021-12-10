@@ -138,6 +138,5 @@ options_meni.add_command(label="Restart",command=restart)
 
 root.title("Tic Tac Toe")
 root.configure(menu=meni)
-root.iconbitmap("C:\Ikonice za pyth\download1.ico")
 root.resizable(False, False)
 root.mainloop()
