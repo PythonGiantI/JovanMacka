@@ -118,7 +118,7 @@ def pomoć_brisanje():
 
 def o_autoru():
     novi_prozor = Toplevel()
-    tekst = Message(novi_prozor,text = "Sve-Jovan Malešević\n5.12.2021.\nRuma\nYt:Drawing&Making")
+    tekst = Message(novi_prozor,text = "Yt:Drawing&Making")
     tekst.pack()
     novi_prozor.configure(bg="white")
     novi_prozor.resizable(False,False)
@@ -205,7 +205,6 @@ meni.add_command(label="Zatvori",command=zatvori)
 
 
 root.configure(menu=meni)
-root.iconbitmap('C:\Ikonice za pyth\download.ico')
 root.resizable(False,False)
 root.title("")
 root.mainloop()
